@@ -3,30 +3,34 @@
     margin: 0;
 }
 
-body{
-    font-family:Verdana, Geneva, sans-serif;
-    background: #F6F6F6;
-}
+
 
 #wrapper{
-    background:#F6F6F6;
     width: 900px;
     margin: auto;
+    
 }
+
 header{
-    background:#F6F6F6;
-    margin-top: 20px;
+    background:gray;
+    width: 900px;
+    height: 100px;
+    clear: both;
 }
 
 h1{
+    padding-top: 30px;
     text-align: center;
+    font-family: Geneva, Georgia;
 }
 
-
+p{
+    font-family: Verdana, sans-serif;
+}
 
 main{
     background: #E2EACB; 
-    padding: 20px
+    padding:20px 5px 20px 10px;
     margin-bottom: 20px;
     margin-top: 20px;
     width:550px;
@@ -37,7 +41,7 @@ main{
 aside{
     background: #BAD584;
     width: 250px;
-    margin:20px 20px 110px 20px;
+    margin:20px 0px 20px 20px;
     padding:20px 20px 20px 20px;
     float: right;
 }
